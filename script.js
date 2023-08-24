@@ -2,7 +2,7 @@
 
 	 new Promise((resolve,reject)=>{
     setTimeout(()=>{
-        resolve("HELLO , world!");
+        resolve("Hello , world!");
     },1000)
 }).then((value)=>{
     document.getElementById("output").innerHTML = value;
